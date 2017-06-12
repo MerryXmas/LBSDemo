@@ -10,12 +10,13 @@ import {
 } from 'react-native';
 
 import LwebView from './lwebview'
+import Util from './util'
 
 class toiletPage extends Component {
   render() {
     return (
       <View style = {styles.container}>
-      <LwebView url = "file:///Users/Gary/ReactNative/LBSDemo/html/nearby.html"/>
+      <LwebView url = "http://123.57.39.116:3000/html/nearby.html"/>
       </View>
     );
   }

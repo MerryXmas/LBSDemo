@@ -27,7 +27,7 @@ export default class LBSDemo extends Component {
 constructor(props) {
     super(props);
     this.state = { 
-      selectedTab: 'toilet'
+      selectedTab: 'read'
      };
   }
   
